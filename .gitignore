@@ -38,3 +38,36 @@ asset_harvesting/
 # which does not require uv.lock.
 **/uv.lock
 .worktrees/
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Model checkpoints / weights
+*.pth
+*.pt
+*.ckpt
+
+# Logs and runtime outputs
+*.log
+logs/
+runs/
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# OS/editor junk
+.DS_Store
+.vscode/
+.idea/

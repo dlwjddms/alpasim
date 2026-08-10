@@ -1,0 +1,12 @@
+grpcio
+grpcio-tools
+protobuf>=4.0.0,<5.0.0
+setuptools<82
+numpy
+pillow
+opencv-python-headless
+omegaconf
+timm
+beartype
+jaxtyping
+scipy
